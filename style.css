@@ -85,7 +85,7 @@ button.btn.btn-primary {
 }
 
 .Contacto p {
-    background-color: #dfedfbff;
+    background-color: #eaf4f6ff;
     display: flexbox;
     margin-block: 20px;
     align-content: center;
@@ -135,7 +135,7 @@ button.btn.btn-primary {
 
 .Servicios {
     width: 100%;
-    background-color: #dfedfbff;
+    background-color: #eaf4f6ff;
     color: #00305bff;
     justify-content: center;
     text-align: center;
@@ -209,7 +209,7 @@ button.btn.btn-primary {
 
 /*Footer*/
 .footer {
-    background-color: #dfedfbff;
+    background-color: #eaf4f6ff;
     text-align: center;
     font-size: 12px;
     padding: 10px;
