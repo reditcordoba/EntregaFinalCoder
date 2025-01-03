@@ -15,13 +15,13 @@
     color: white;
     text-shadow: 2px;
     /*background-color: rgba(0, 49, 91, 0.571);*/
-    background-color: ;
+    background-color: rgba(255, 255, 255, 0.162);  
 }
 
 .Landing {
     background-size: cover;
     background-position: center top;
-    background-image: url(mundo.jpg);
+    background-image: url(/img/mundo.jpg);
 }
 
 .header {
@@ -34,6 +34,7 @@
     border-radius: 5px;
     transition: background-color 0.3s;
     height: 500px;
+    width: 100%;
 }
 
 .header h2 h3 {
@@ -67,6 +68,7 @@
     align-content: center;
     margin-top: 40px;
     height: max-content;
+    width: 100%;
 }
 
 /*Contacto*/
@@ -141,15 +143,15 @@ button.btn.btn-primary {
     justify-content: center;
     text-align: center;
     position: fixed;
-    top: 60px;
-    margin-left: 10px;
+    top: 50px;
+    
     margin-right: 20px;
 }
 
 .servicio {
     border: 1px solid dfedfbff;
     align-items: center;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .servicios-detalles h2 {
@@ -165,32 +167,9 @@ button.btn.btn-primary {
 
 .servicios-detalles p {
     font-size: 14px;
-}
-/*
-.soporte {
-    grid-area: soporte;
+    margin-left: 15px;
 }
 
-.capacitacion {
-    grid-area: capacitacion;
-}
-
-.versionado {
-    grid-area: versionado;
-}
-
-.outsourcing {
-    grid-area: outsourcing;
-}
-
-.planificacion {
-    grid-area: planificacion;
-}
-
-.urgencias {
-    grid-area: urgencias;
-}
-*/
 @media only screen and (min-width: 480px) {
     .servicios-detalles {
         grid-template-columns: 1fr 1fr;
@@ -213,7 +192,7 @@ button.btn.btn-primary {
     }
 
 @media only screen and (min-width: 480px) {
-    .banner .Quienes .servicios-detalles .clientes .Contacto .header {
+    .banner .Quienes .servicios-detalles .Clientes .Contacto .header .footer {
         width: 100%;
     }
 }
@@ -224,4 +203,6 @@ button.btn.btn-primary {
     text-align: center;
     font-size: 12px;
     padding: 10px;
+    position: absolute;
+    width: 100%;
 }
