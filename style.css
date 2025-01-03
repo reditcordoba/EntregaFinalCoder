@@ -15,6 +15,7 @@
     color: white;
     text-shadow: 2px;
     /*background-color: rgba(0, 49, 91, 0.571);*/
+    background-color: ;
 }
 
 .Landing {
@@ -124,7 +125,7 @@ button.btn.btn-primary {
 .servicios-detalles {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 250px);
+    /*grid-template-rows: repeat(3, 250px);*/
     gap: 5px;
     margin-top: 140px;
     align-content: center;
@@ -165,7 +166,7 @@ button.btn.btn-primary {
 .servicios-detalles p {
     font-size: 14px;
 }
-
+/*
 .soporte {
     grid-area: soporte;
 }
@@ -189,7 +190,7 @@ button.btn.btn-primary {
 .urgencias {
     grid-area: urgencias;
 }
-
+*/
 @media only screen and (min-width: 480px) {
     .servicios-detalles {
         grid-template-columns: 1fr 1fr;
@@ -200,6 +201,16 @@ button.btn.btn-primary {
             "planificacion urgencias";
     }
 }
+
+@media only screen and (min-width: 480px) {
+    .servicios-detalles {
+    grid-area: soporte;
+    grid-area: capacitacion;
+    grid-area: versionado;
+    grid-area: outsourcing;
+    grid-area: planificacion;
+    grid-area: urgencias;
+    }
 
 @media only screen and (min-width: 480px) {
     .banner .Quienes .servicios-detalles .clientes .Contacto .header {
