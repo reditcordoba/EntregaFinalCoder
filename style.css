@@ -62,6 +62,7 @@
 /*Clientes*/
 .Clientes {
     background-color: #eaf4f6ff;
+    
     text-align: center;
     justify-content: center;
     margin-block: 20px;
@@ -144,7 +145,6 @@ button.btn.btn-primary {
     text-align: center;
     position: fixed;
     top: 50px;
-    
     margin-right: 20px;
 }
 
@@ -168,6 +168,16 @@ button.btn.btn-primary {
 .servicios-detalles p {
     font-size: 14px;
     margin-left: 15px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #eaf4f6ff;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+    width: 100%;
 }
 
 @media only screen and (min-width: 480px) {
@@ -197,12 +207,3 @@ button.btn.btn-primary {
     }
 }
 
-/*Footer*/
-.footer {
-    background-color: #eaf4f6ff;
-    text-align: center;
-    font-size: 12px;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-}
