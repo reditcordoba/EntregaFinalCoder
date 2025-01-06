@@ -10,21 +10,11 @@
 .header {
     vertical-align: middle;
     margin-top: 50px;
-    line-height: 300px;
     text-align: center;
     color: white;
     text-shadow: 2px;
     /*background-color: rgba(0, 49, 91, 0.571);*/
-    background-color: rgba(255, 255, 255, 0.162);  
-}
-
-.Landing {
-    background-size: cover;
-    background-position: center top;
-    background-image: url(/img/mundo.jpg);
-}
-
-.header {
+    background-color: rgba(255, 255, 255, 0.162);
     display: inline-block;
     margin-top: 20px;
     padding: 100px;
@@ -35,6 +25,12 @@
     transition: background-color 0.3s;
     height: 500px;
     width: 100%;
+}
+
+.Landing {
+    background-size: cover;
+    background-position: center top;
+    background-image: url(/img/mundo.jpg);
 }
 
 .header h2 h3 {
@@ -50,17 +46,16 @@
 }
 
 /*Titulo*/
-.Clientes h1 {
+.clientes h1 {
     text-transform: uppercase;
     font-size: 30px;
     text-align: center;
-    font-weight: bolder;
     font-weight: bold;
     padding-top: 40px;
 }
 
 /*Clientes*/
-.Clientes {
+.clientes {
     background-color: #eaf4f6ff;
     text-align: center;
     justify-content: center;
@@ -68,6 +63,10 @@
     align-content: center;
     margin-top: 40px;
     height: max-content;
+    width: 100%;
+}
+
+.clientes img {
     width: 100%;
 }
 
@@ -192,17 +191,16 @@ button.btn.btn-primary {
 
 @media only screen and (min-width: 480px) {
     .servicios-detalles {
-    grid-area: soporte;
-    grid-area: capacitacion;
-    grid-area: versionado;
-    grid-area: outsourcing;
-    grid-area: planificacion;
-    grid-area: urgencias;
+        grid-area: soporte;
+        grid-area: capacitacion;
+        grid-area: versionado;
+        grid-area: outsourcing;
+        grid-area: planificacion;
+        grid-area: urgencias;
     }
 
-@media only screen and (min-width: 480px) {
-    .banner .Quienes .servicios-detalles .Clientes .Contacto .header .footer {
-        width: 100%;
+    @media only screen and (min-width: 480px) {
+        .banner .Quienes .servicios-detalles .Clientes .Contacto .header .footer {
+            width: 100%;
+        }
     }
-}
-
