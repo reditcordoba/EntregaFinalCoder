@@ -182,6 +182,7 @@ button.btn.btn-primary {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 140px;
 }
 
 @media only screen and (min-width: 480px) {
