@@ -19,31 +19,34 @@ body {
     display: inline-block;
     text-decoration: none;
     margin-top: 50px;
+    height: 500px;
+    
 */
     width: 40vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    display:inline-block;
+    align-items: right;
+    justify-content: right;
+    
     color: white;
-    text-shadow: 2px;
     background-color: rgba(255, 255, 255, 0.162);
     padding: 100px;
     font-size: 1rem;    
     border-radius: 5px;
     transition: background-color 0.3s;
-    height: 500px;
-    
+    min-height: calc(100vh - 140px);
+ 
 }
 
 .landing {
     background-size: cover;
     background-position: center top;
     background-image: url(/img/mundo.jpg);
+    height: auto;
 }
 
 .header h2 h3 {
-    padding: 20px;
+    /*padding: 10px;
+    margin: 0px;*/
 }
 
 .container {
